@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System — All colors in HSL, gradients, fonts, shadows */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Base */
+    --background: 0 0% 100%;
+    --foreground: 232 19% 12%;
+
+    /* Surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 232 19% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 232 19% 12%;
+
+    /* Brand */
+    --primary: 276 63% 45%; /* Royal plum */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 35% 96%; /* Soft lilac */
+    --secondary-foreground: 276 63% 20%;
+
+    --muted: 230 20% 96%;
+    --muted-foreground: 230 11% 46%;
+
+    --accent: 42 95% 55%; /* Golden accent */
+    --accent-foreground: 240 5% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 230 22% 90%;
+    --input: 230 22% 90%;
+    --ring: 276 63% 45%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar (kept for components that use it) */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 276 63% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 280 35% 96%;
+    --sidebar-accent-foreground: 240 5.3% 26.1%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 276 63% 45%;
+
+    /* Brand Gradients & Shadows */
+    --brand-start: 276 63% 50%;
+    --brand-end: 42 95% 55%;
+    --gradient-primary: linear-gradient(135deg, hsl(var(--brand-start)), hsl(var(--brand-end)));
+    --shadow-elegant: 0 12px 40px -12px hsl(var(--brand-start) / 0.25);
+    --on-brand-foreground: 0 0% 100%;
+
+    /* Typography */
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';
+  }
+
+  .dark {
+    --background: 240 10% 6%;
+    --foreground: 0 0% 100%;
+
+    --card: 240 10% 8%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 240 10% 8%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Keep buttons readable in dark */
+    --primary: 276 63% 60%;
+    --primary-foreground: 240 10% 10%;
+
+    --secondary: 248 15% 18%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 248 15% 18%;
+    --muted-foreground: 225 10% 70%;
+
+    --accent: 42 95% 55%;
+    --accent-foreground: 240 10% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 248 15% 18%;
+    --input: 248 15% 18%;
+    --ring: 276 63% 60%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 276 63% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 276 63% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+
+  .text-gradient-primary {
+    background-image: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Interactive link underline */
+  .story-link {
+    position: relative;
+    display: inline-block;
+  }
+  .story-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    background-color: hsl(var(--primary));
+    transition: transform 300ms ease;
+  }
+  .story-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-200;
+  }
+  .hover-scale:hover {
+    transform: translateY(-2px) scale(1.03);
+  }
+
+  .pulse {
+    animation: pulse 2s cubic-bezier(0.4,0,0.6,1) infinite;
+  }
+}
