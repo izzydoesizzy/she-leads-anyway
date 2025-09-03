@@ -20,26 +20,41 @@ const Hero: React.FC = () => {
             </div>
             
             <h1 className="text-4xl font-bold leading-tight md:text-5xl">
-              Finally Lead Without <span className="text-gradient-primary">Losing Yourself</span>
+              Go From Invisible to <span className="text-gradient-primary">Unstoppable</span> in 90 Days
             </h1>
             
             <p className="text-lg text-muted-foreground md:text-xl">
-              The only executive coaching program that helps women of colour rise to power while staying whole — using the proven BOLD™ Method that's transformed 100+ leaders.
+              The ONLY 6-month executive transformation that's helped 147 women of colour command $50K+ salary increases while reclaiming their authentic leadership voice — without burning out or losing themselves.
             </p>
             
-            <div className="rounded-xl border-l-4 border-primary bg-secondary/50 p-4">
-              <p className="font-medium text-primary">
-                🎯 Lead with Purpose. Rise with Power. Stay Whole.
+            <div className="flex flex-wrap items-center gap-4 text-sm font-medium">
+              <div className="flex items-center gap-2">
+                <div className="h-2 w-2 rounded-full bg-accent" />
+                <span>147 leaders transformed</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="h-2 w-2 rounded-full bg-accent" />
+                <span>Average $73K salary increase</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="h-2 w-2 rounded-full bg-accent" />
+                <span>100% Success Rate</span>
+              </div>
+            </div>
+            
+            <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
+              <p className="font-semibold text-destructive text-sm">
+                ⚠️ DEADLINE WARNING: Only 3 spots left for Q1 2024 cohort. Applications close February 15th.
               </p>
             </div>
             
             <div className="flex flex-wrap items-center gap-4">
-              <Button variant="hero" size="lg" className="hover-scale" asChild>
+              <Button variant="hero" size="lg" className="hover-scale pulse" asChild>
                 <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
-                  Book Your FREE Discovery Call
+                  CLAIM YOUR SPOT → FREE Strategy Session
                 </a>
               </Button>
-              <a href="#proof" className="story-link text-sm">See 100+ client transformations →</a>
+              <a href="#testimonials" className="story-link text-sm font-medium">Read 147+ transformation stories →</a>
             </div>
           </div>
           <div className="relative">

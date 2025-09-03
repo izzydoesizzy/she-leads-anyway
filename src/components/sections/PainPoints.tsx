@@ -29,10 +29,16 @@ const PainPoints: React.FC = () => {
     <section id="pain" className="border-t bg-destructive/5">
       <div className="container mx-auto py-16">
         <div className="text-center">
-          <h2 className="text-3xl font-semibold">You've Earned Your Seat at the Table...</h2>
+          <h2 className="text-3xl font-semibold">You've Broken Through Glass Ceilings...</h2>
           <p className="mx-auto mt-3 max-w-3xl text-lg text-muted-foreground">
-            But the unspoken rules, constant code-switching, and invisible tax of leadership are exhausting.
+            But the invisible tax of being "the only one" is slowly killing your spirit, your health, and your confidence.
           </p>
+          
+          <div className="mt-6 p-4 bg-destructive/10 border border-destructive/20 rounded-lg">
+            <p className="text-destructive font-medium">
+              💔 You're successful on paper, but empty inside
+            </p>
+          </div>
         </div>
         
         <div className="mx-auto mt-12 max-w-4xl">

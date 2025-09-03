@@ -9,6 +9,7 @@ import SolutionIntro from "@/components/sections/SolutionIntro";
 import OfferStack from "@/components/sections/OfferStack";
 import HowItWorks from "@/components/sections/HowItWorks";
 import BoldMethod from "@/components/sections/BoldMethod";
+import TransformationStory from "@/components/sections/TransformationStory";
 import Testimonials from "@/components/sections/Testimonials";
 import SocialProof from "@/components/sections/SocialProof";
 import Pricing from "@/components/sections/Pricing";
@@ -101,6 +102,7 @@ const Index = () => {
         <OfferStack />
         <HowItWorks />
         <BoldMethod />
+        <TransformationStory />
         <Testimonials />
         <SocialProof />
         <Pricing />
