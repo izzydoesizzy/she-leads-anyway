@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import boldMethodImage from "@/assets/bold-method-visual.jpg";
+import boldMethodImage from "@/assets/bold-method-framework.jpg";
 
 const methods = [
   {
