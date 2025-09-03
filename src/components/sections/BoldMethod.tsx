@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { ChevronDown } from "lucide-react";
 import boldMethodImage from "@/assets/bold-method-framework.jpg";
 
 const methods = [
   {
     letter: "B",
     title: "Becoming",
-    items: [
+    summary: "Unlearn self-silencing habits and reclaim your authentic voice and story.",
+    details: [
       "Unlearn the self-silencing habits that helped you survive but no longer serve you.",
       "Reconnect with your lived experiences, values and cultural wisdom.",
       "Name the pressures and patterns that keep you dimming your light.",
@@ -16,7 +19,8 @@ const methods = [
   {
     letter: "O", 
     title: "Own Your Power",
-    items: [
+    summary: "Redefine presence on your terms and build authentic executive influence.",
+    details: [
       "Redefine presence on your terms.",
       "Reclaiming agency over one's voice, space and value - especially in workplaces that silence or diminish.",
       "Build executive influence rooted in self-trust and cultural authenticity.",
@@ -25,8 +29,9 @@ const methods = [
   },
   {
     letter: "L",
-    title: "Lead with Intention", 
-    items: [
+    title: "Lead with Intention",
+    summary: "Develop authentic leadership presence that blends results with respect.",
+    details: [
       "Develop authentic leadership presence that blends results with respect.",
       "Reconnect with your purpose and values.",
       "Set clear boundaries, goals, and strategies to lead from alignment, not over-functioning."
@@ -35,7 +40,8 @@ const methods = [
   {
     letter: "D",
     title: "Disrupting",
-    items: [
+    summary: "Challenge oppressive norms and create sustainable leadership models.",
+    details: [
       "Challenge oppressive norms and create liberating leadership models.",
       "You're not just here to succeed, you're here to lead in a way that feels sustainable.",
       "We'll map out the next chapter of your career and leadership journey, one that reflects your truth and your worth."
@@ -44,6 +50,18 @@ const methods = [
 ];
 
 const BoldMethod: React.FC = () => {
+  const [openItems, setOpenItems] = useState<Set<number>>(new Set());
+
+  const toggleItem = (index: number) => {
+    const newOpenItems = new Set(openItems);
+    if (newOpenItems.has(index)) {
+      newOpenItems.delete(index);
+    } else {
+      newOpenItems.add(index);
+    }
+    setOpenItems(newOpenItems);
+  };
+
   return (
     <section id="method" className="border-t bg-secondary/50">
       <div className="container mx-auto py-16">
@@ -83,14 +101,24 @@ const BoldMethod: React.FC = () => {
                       </div>
                       <div className="flex-1">
                         <h3 className="font-semibold text-lg mb-2">{method.title}</h3>
-                        <div className="space-y-1 text-sm text-muted-foreground">
-                          {method.items.map((item, i) => (
-                            <div key={i} className="flex items-start gap-2">
-                              <div className="mt-2 h-1.5 w-1.5 rounded-full bg-primary/60 flex-shrink-0" />
-                              <span>{item}</span>
+                        <p className="text-muted-foreground mb-3">{method.summary}</p>
+                        
+                        <Collapsible open={openItems.has(index)} onOpenChange={() => toggleItem(index)}>
+                          <CollapsibleTrigger className="flex items-center gap-2 text-sm text-primary hover:underline">
+                            {openItems.has(index) ? 'Show less' : 'Learn more'}
+                            <ChevronDown className={`h-4 w-4 transition-transform ${openItems.has(index) ? 'rotate-180' : ''}`} />
+                          </CollapsibleTrigger>
+                          <CollapsibleContent className="mt-3">
+                            <div className="space-y-2 text-sm text-muted-foreground">
+                              {method.details.map((detail, i) => (
+                                <div key={i} className="flex items-start gap-2">
+                                  <div className="mt-2 h-1.5 w-1.5 rounded-full bg-primary/60 flex-shrink-0" />
+                                  <span>{detail}</span>
+                                </div>
+                              ))}
                             </div>
-                          ))}
-                        </div>
+                          </CollapsibleContent>
+                        </Collapsible>
                       </div>
                     </div>
                   </CardContent>
