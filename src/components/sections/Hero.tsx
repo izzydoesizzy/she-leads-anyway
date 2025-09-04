@@ -2,7 +2,7 @@ import React from "react";
 import GradientSpotlight from "@/components/marketing/GradientSpotlight";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import heroImage from "@/assets/hero-coaching.jpg";
+const heroImage = "/lovable-uploads/79947212-b061-4abb-8a2c-4eb1acc94457.png";
 
 const Hero: React.FC = () => {
   return (
