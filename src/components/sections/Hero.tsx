@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <GradientSpotlight className="relative">
         <div className="container mx-auto grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
           <div className="space-y-6 animate-enter">
-            <div className="flex flex-wrap gap-2 mb-4">
+            <div className="flex gap-2 mb-4">
               <Badge variant="secondary" className="px-3 py-1">
                 Specialized for Women of Colour
               </Badge>
