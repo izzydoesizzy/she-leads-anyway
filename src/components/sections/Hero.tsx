@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           <div className="space-y-6 animate-enter">
             <div className="flex flex-wrap gap-2 mb-4">
               <Badge variant="secondary" className="px-3 py-1">
-                Women of Colour Only
+                Specialized for Women of Colour
               </Badge>
               <Badge variant="outline" className="px-3 py-1">
                 6-Month Private Experience
