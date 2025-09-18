@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             </p>
             
             <p className="text-base text-muted-foreground">
-              Trusted by 147 executives — with an average $73K salary increase while reclaiming their authentic leadership voice.
+              Backed by 30+ years of corporate leadership and coaching expertise — trusted by women of colour leaders navigating high-stakes spaces with authenticity.
             </p>
             
             <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
