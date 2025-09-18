@@ -23,35 +23,28 @@ const Hero: React.FC = () => {
               She Leads Anyway™
             </h1>
             
-            <p className="text-lg text-muted-foreground md:text-xl">
-              The ONLY 6-month executive transformation that's helped 147 women of colour command $50K+ salary increases while reclaiming their authentic leadership voice — without burning out or losing themselves.
+            <h2 className="text-xl font-semibold text-muted-foreground md:text-2xl">
+              Executive Coaching for Women of Colour in Leadership
+            </h2>
+            
+            <p className="text-lg font-medium md:text-xl">
+              Lead with Purpose. Rise with Power. Stay Whole.
             </p>
             
-            <div className="flex flex-wrap items-center gap-4 text-sm font-medium">
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-accent" />
-                <span>147 leaders transformed</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-accent" />
-                <span>Average $73K salary increase</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-accent" />
-                <span>100% Success Rate</span>
-              </div>
-            </div>
+            <p className="text-base text-muted-foreground">
+              Trusted by 147 executives — with an average $73K salary increase while reclaiming their authentic leadership voice.
+            </p>
             
             <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
               <p className="font-semibold text-destructive text-sm">
-                ⚠️ DEADLINE WARNING: Only 3 spots left for Q1 2024 cohort. Applications close February 15th.
+                ⚠️ Limited spots available for the next cohort. Apply to secure your spot.
               </p>
             </div>
             
             <div className="flex flex-wrap items-center gap-4">
               <Button variant="hero" size="lg" className="hover-scale pulse" asChild>
                 <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
-                  CLAIM YOUR SPOT → FREE Strategy Session
+                  👉 Book Your Complimentary Discovery Call
                 </a>
               </Button>
               <a href="#testimonials" className="story-link text-sm font-medium">Read 147+ transformation stories →</a>
