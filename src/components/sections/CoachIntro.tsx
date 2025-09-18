@@ -14,7 +14,7 @@ const CoachIntro: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl font-bold">Meet Your Coach & Guide:</h2>
-              <p className="mt-2 text-muted-foreground text-lg font-medium my-[12px]">👋 I’m Aileen Edwards, an Executive Coach, HR Executive, and Crucial Conversations® Facilitator with 30+ years of leadership experience.</p>
+              <p className="mt-2 text-muted-foreground text-lg font-medium my-[25px]">👋 I’m Aileen Edwards, an Executive Coach, HR Executive, and Crucial Conversations® Facilitator with 30+ years of leadership experience.</p>
             </div>
             
             <div className="space-y-4 text-muted-foreground">
