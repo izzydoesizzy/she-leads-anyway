@@ -35,12 +35,6 @@ const Hero: React.FC = () => {
               Backed by 30+ years of corporate leadership and coaching expertise — trusted by women of colour leaders navigating high-stakes spaces with authenticity.
             </p>
             
-            <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
-              <p className="font-semibold text-destructive text-sm">
-                ⚠️ Limited spots available for the next cohort. Apply to secure your spot.
-              </p>
-            </div>
-            
             <div className="flex flex-wrap items-center gap-4">
               <Button variant="hero" size="lg" className="hover-scale pulse" asChild>
                 <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
@@ -48,6 +42,12 @@ const Hero: React.FC = () => {
                 </a>
               </Button>
               <a href="#testimonials" className="story-link text-sm font-medium">Read 147+ transformation stories →</a>
+            </div>
+            
+            <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
+              <p className="font-semibold text-destructive text-sm">
+                ⚠️ Limited spots available for the next cohort. Apply to secure your spot.
+              </p>
             </div>
           </div>
           <div className="relative">
