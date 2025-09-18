@@ -3,10 +3,8 @@ import GradientSpotlight from "@/components/marketing/GradientSpotlight";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 const heroImage = "/lovable-uploads/79947212-b061-4abb-8a2c-4eb1acc94457.png";
-
 const Hero: React.FC = () => {
-  return (
-    <section id="hero" className="relative overflow-hidden">
+  return <section id="hero" className="relative overflow-hidden">
       <GradientSpotlight className="relative">
         <div className="container mx-auto grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
           <div className="space-y-6 animate-enter">
@@ -31,9 +29,7 @@ const Hero: React.FC = () => {
               Lead with Purpose. Rise with Power. Stay Whole.
             </p>
             
-            <p className="text-base text-muted-foreground">
-              Backed by 30+ years of corporate leadership and coaching expertise — trusted by women of colour leaders navigating high-stakes spaces with authenticity.
-            </p>
+            <p className="text-base text-muted-foreground">Backed by 30+ years of corporate leadership and coaching expertise. Trusted by women of colour leaders navigating high-stakes spaces with authenticity.</p>
             
             <div className="flex flex-wrap items-center gap-4">
               <Button variant="hero" size="lg" className="hover-scale pulse" asChild>
@@ -41,7 +37,7 @@ const Hero: React.FC = () => {
                   👉 Book Your Complimentary Discovery Call
                 </a>
               </Button>
-              <a href="#testimonials" className="story-link text-sm font-medium">Read 147+ transformation stories →</a>
+              
             </div>
             
             <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
@@ -51,18 +47,11 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <img
-              src={heroImage}
-              alt="A confident woman of colour executive in a modern office — She Leads Anyway coaching"
-              className="rounded-xl shadow-xl ring-1 ring-border animate-scale-in"
-              loading="eager"
-            />
+            <img src={heroImage} alt="A confident woman of colour executive in a modern office — She Leads Anyway coaching" className="rounded-xl shadow-xl ring-1 ring-border animate-scale-in" loading="eager" />
             <div className="pointer-events-none absolute -inset-10 -z-10 rounded-[2rem] bg-gradient-primary opacity-30 blur-3xl" aria-hidden />
           </div>
         </div>
       </GradientSpotlight>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
