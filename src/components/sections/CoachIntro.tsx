@@ -13,20 +13,18 @@ const CoachIntro: React.FC = () => {
           
           <div className="space-y-6">
             <div>
-              <h2 className="text-3xl font-semibold">Meet Aileen Edwards: 
-Your Coach & Guide
-            </h2>
-              <p className="mt-2 text-lg text-muted-foreground">Leadership isn't just strategy. It's presence, influence, and the courage to show up fully in high-stakes spaces.</p>
+              <h2 className="text-3xl font-bold">Meet Your Coach & Guide:</h2>
+              <p className="mt-2 text-muted-foreground text-lg font-medium my-[20px]">👋 I’m Aileen Edwards, an Executive Coach, HR Executive, and Crucial Conversations® Facilitator with 30+ years of leadership experience.</p>
             </div>
             
             <div className="space-y-4 text-muted-foreground">
-              <p>I'm Aileen Edwards, an Executive Coach, former HR Executive, Certified Coach (ACC), and Crucial Conversations® Facilitator with 30+ years of leadership experience. I understand both the corporate realities and the lived experience of leading in spaces not built for you.</p>
-              <p>
-                I've led million-dollar portfolios. I've coached executives in crisis. And I've been the only one in the room more times than I can count.
-              </p>
-              <p>
-                For 30+ years in corporate leadership, I navigated the tension between responsibility and representation — leading major change while carrying the weight of being "the first," "the only," or "the one who has to fix it."
-              </p>
+              <p>I’ve sat in the boardroom and the backroom. I’ve led million-dollar portfolios, coached executives in crisis, and been “the only one in the room” more times than I can count.</p>
+              <p>I help women leaders like you build presence that commands respect, strengthen influence under pressure, and thrive without burnout.</p>
+              <p>Clients report:
+✨ Greater confidence in high-stakes moments
+✨ Increased visibility and influence with senior leaders
+✨ Promotions into senior roles
+✨ A stronger, more authentic leadership identity</p>
             </div>
             
             <div className="rounded-xl border-l-4 border-primary bg-secondary/50 p-6">
