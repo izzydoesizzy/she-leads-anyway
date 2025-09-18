@@ -14,20 +14,16 @@ const CoachIntro: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl font-bold">Meet Your Coach & Guide:</h2>
-              <p className="mt-2 text-muted-foreground text-lg font-medium my-[20px]">👋 I’m Aileen Edwards, an Executive Coach, HR Executive, and Crucial Conversations® Facilitator with 30+ years of leadership experience.</p>
+              <p className="mt-2 text-muted-foreground text-lg font-medium my-[12px]">👋 I’m Aileen Edwards, an Executive Coach, HR Executive, and Crucial Conversations® Facilitator with 30+ years of leadership experience.</p>
             </div>
             
             <div className="space-y-4 text-muted-foreground">
               
-              <p>I help women leaders like you build presence that commands respect, strengthen influence under pressure, and thrive without burnout.</p>
-              <p>Clients report:
-✨ Greater confidence in high-stakes moments
-✨ Increased visibility and influence with senior leaders
-✨ Promotions into senior roles
-✨ A stronger, more authentic leadership identity</p>
+              <p>I’ve sat in the boardroom and the backroom. I’ve led million-dollar portfolios, coached executives in crisis, while carrying the weight of being “the first,” “the only,” or “the one who has to fix it.”</p>
+              
             </div>
             
-            <div className="rounded-xl border-l-4 border-primary bg-secondary/50 p-6">
+            <div className="rounded-xl border-l-4 border-primary bg-secondary/50 p-6 py-[18px]">
               <p className="font-medium text-primary">
                 Now, I help women like you build a new legacy, one where your leadership isn't rooted in survival, but in sovereignty.
               </p>
