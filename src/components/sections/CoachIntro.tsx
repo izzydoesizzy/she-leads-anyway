@@ -18,7 +18,7 @@ const CoachIntro: React.FC = () => {
             </div>
             
             <div className="space-y-4 text-muted-foreground">
-              <p>I’ve sat in the boardroom and the backroom. I’ve led million-dollar portfolios, coached executives in crisis, and been “the only one in the room” more times than I can count.</p>
+              
               <p>I help women leaders like you build presence that commands respect, strengthen influence under pressure, and thrive without burnout.</p>
               <p>Clients report:
 ✨ Greater confidence in high-stakes moments
