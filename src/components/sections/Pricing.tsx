@@ -15,11 +15,9 @@ const pricingOptions = [{
 }];
 const Pricing: React.FC = () => {
   return <section id="pricing" className="border-t bg-secondary/50">
-      <div className="container py-16 mx-0">
+      <div className="container mx-0 py-[20px]">
         <div className="text-center">
-          <div className="bg-destructive/20 text-destructive px-4 py-2 rounded-full inline-block mb-4">
-            <span className="font-bold">⏰ FINAL DEADLINE: Applications close February 15th</span>
-          </div>
+          
           <h2 className="text-3xl font-semibold">The Investment That Pays for Itself</h2>
           <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
             At $73K average salary increase, this investment pays for itself in the first 30 days. 

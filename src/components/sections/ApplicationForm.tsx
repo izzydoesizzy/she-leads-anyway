@@ -4,22 +4,20 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-
 const ApplicationForm: React.FC = () => {
-  const { toast } = useToast();
-
+  const {
+    toast
+  } = useToast();
   const onApply = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     toast({
       title: "Application received",
-      description: "Thank you! We’ll be in touch within 24–48 hours.",
+      description: "Thank you! We’ll be in touch within 24–48 hours."
     });
     (e.currentTarget as HTMLFormElement).reset();
   };
-
-  return (
-    <section id="apply" className="border-t">
-      <div className="container mx-auto grid gap-10 py-16 md:grid-cols-2">
+  return <section id="apply" className="border-t">
+      <div className="container mx-auto grid gap-10 md:grid-cols-2 py-[10px]">
         <div className="space-y-4">
           <h2 className="text-3xl font-semibold">Apply for a Private Consultation</h2>
           <p className="text-muted-foreground">
@@ -58,8 +56,6 @@ const ApplicationForm: React.FC = () => {
           </div>
         </form>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ApplicationForm;
