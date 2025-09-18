@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
               </Badge>
             </div>
             
-            <h1 className="text-4xl font-bold leading-tight md:text-5xl">
+            <h1 className="text-4xl font-bold leading-tight md:text-5xl text-gradient-primary">
               She Leads Anyway™
             </h1>
             
