@@ -20,27 +20,18 @@ const CoachIntro: React.FC = () => {
           
           <div className="space-y-6">
             <div>
-              <h2 className="text-3xl font-semibold">I'm Aileen Edwards</h2>
+              <h2 className="text-3xl font-semibold">Meet Aileen Edwards — Your Coach & Guide</h2>
               <p className="mt-2 text-lg text-muted-foreground">
-                and I created this space because I've lived this story.
+                Leadership isn't just strategy — it's presence, influence, and the courage to show up fully in high-stakes spaces.
               </p>
             </div>
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                As a Black woman, former HR Executive, and now leadership coach, I've sat in the boardroom and the backroom.
+                I'm Aileen Edwards — Executive Coach, former HR Executive, Certified Coach (ACC), and Crucial Conversations® Facilitator with 30+ years of leadership experience. I understand both the corporate realities and the lived experience of leading in spaces not built for you.
               </p>
               <p>
-                I've led million-dollar portfolios. I've coached executives in crisis. And I've been the only one in the room more times than I can count.
-              </p>
-              <p>
-                For 30+ years in corporate leadership, I navigated the tension between responsibility and representation — leading major change while carrying the weight of being "the first," "the only," or "the one who has to fix it."
-              </p>
-            </div>
-            
-            <div className="rounded-xl border-l-4 border-primary bg-secondary/50 p-6">
-              <p className="font-medium text-primary">
-                Now, I help women like you build a new legacy, one where your leadership isn't rooted in survival, but in sovereignty.
+                I created She Leads Anyway™ because too often women — especially Women of Colour — step into leadership without tailored support to navigate the realities of being the only one in the room. My work is built to meet that reality.
               </p>
             </div>
             
