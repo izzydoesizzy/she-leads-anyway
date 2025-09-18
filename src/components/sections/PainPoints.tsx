@@ -4,23 +4,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const PainPoints: React.FC = () => {
   const struggles = [
     {
-      title: "Invisible Tax of Leadership",
-      description: "Carrying the emotional load while navigating unspoken rules and constant code-switching.",
-      icon: "😔"
+      title: "Unspoken Rules & Code-Switching",
+      description: "Constantly adapting your communication style and energy to fit in drains your authentic self.",
+      icon: "🎭"
     },
     {
-      title: "Second-Guessing Your Voice", 
-      description: "Wondering if speaking up will label you as 'difficult' or 'too much.'",
+      title: "Emotional Load of Team Dynamics", 
+      description: "Carrying the weight of racialized expectations while managing complex team relationships.",
+      icon: "💭"
+    },
+    {
+      title: "Fear of Being 'Difficult'",
+      description: "Second-guessing your voice and holding back your true thoughts for fear of negative labels.",
       icon: "🤐"
     },
     {
-      title: "Exhausting Politics",
-      description: "Managing team dynamics where you're always managing racial dynamics too.",
-      icon: "😰"
-    },
-    {
-      title: "Feeling Unseen",
-      description: "Leading with influence but still feeling like you don't truly belong.",
+      title: "Feeling Unseen Despite Results",
+      description: "Having influence and delivering results but still feeling invisible and undervalued.",
       icon: "👻"
     }
   ];
@@ -29,14 +29,14 @@ const PainPoints: React.FC = () => {
     <section id="pain" className="border-t bg-destructive/5">
       <div className="container mx-auto py-16">
         <div className="text-center">
-          <h2 className="text-3xl font-semibold">You've Broken Through Glass Ceilings...</h2>
+          <h2 className="text-3xl font-semibold">You've Earned Your Seat — But at What Cost?</h2>
           <p className="mx-auto mt-3 max-w-3xl text-lg text-muted-foreground">
-            But the invisible tax of being "the only one" is slowly killing your spirit, your health, and your confidence.
+            You've broken through glass ceilings and landed roles with influence. Still, leadership can feel costly when the rules weren't written for you.
           </p>
           
           <div className="mt-6 p-4 bg-destructive/10 border border-destructive/20 rounded-lg">
             <p className="text-destructive font-medium">
-              💔 You're successful on paper, but empty inside
+              This is the "messy middle" of leadership — and most coaching misses these nuances.
             </p>
           </div>
         </div>
