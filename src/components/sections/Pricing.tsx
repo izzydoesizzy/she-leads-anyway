@@ -23,21 +23,7 @@ const Pricing: React.FC = () => {
         </div>
         
         <div className="mx-auto mb-8 max-w-3xl text-center">
-          <div className="rounded-xl border border-primary/30 bg-gradient-primary/10 p-6 py-[10px]">
-            <h3 className="text-xl font-semibold text-primary mb-2">Total Program Value: $18,500</h3>
-            <p className="text-sm text-muted-foreground mb-2">Based on comparable executive coaching rates ($300/hr × 24 sessions)</p>
-            <div className="text-xs space-y-1 text-muted-foreground">
-              <div>• 6 months of 1:1 coaching: $7,200</div>
-              <div>• BOLD Method materials & assessments: $1,500</div>
-              <div>• Leadership presence intensive: $2,800</div>
-              <div>• Negotiation strategy session: $1,500</div>
-              <div>• Access to private community: $1,200</div>
-              <div>• Lifetime access to recorded trainings: $4,300</div>
-            </div>
-            <p className="mt-3 font-semibold text-destructive">
-              You save $13,500 when you join today
-            </p>
-          </div>
+          
         </div>
         
         <div className="mx-auto mt-8 grid max-w-3xl gap-6 md:grid-cols-2">
