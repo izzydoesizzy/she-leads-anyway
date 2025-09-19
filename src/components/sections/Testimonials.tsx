@@ -16,6 +16,11 @@ const testimonials = [{
   name: "Natalie A.",
   role: "Labour Relations Advisor",
   outcome: "Inner Voice Discovery"
+}, {
+  quote: "AME consulting provided support in managing a sensitive issue. Aileen's approach was practical, transparent and thorough. She managed the situation with sophistication and delicacy, as well as empathy, which was much appreciated. All parties involved found her supportive and thorough.",
+  name: "Myfanwy M.",
+  role: "Vice President, People & Experience",
+  outcome: "Sensitive Issue Resolution"
 }];
 const Testimonials: React.FC = () => {
   return <section id="proof" className="border-t bg-secondary/30">
