@@ -42,9 +42,7 @@ const PainPoints: React.FC = () => {
               </Card>)}
           </div>
           
-          <div className="mt-8 text-center">
-            <p className="text-lg font-medium text-muted-foreground">You're a high-performing woman of colour in a role with influence, but you're still...</p>
-          </div>
+          
         </div>
       </div>
     </section>;
