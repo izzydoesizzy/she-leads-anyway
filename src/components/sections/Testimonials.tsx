@@ -7,11 +7,6 @@ const testimonials = [{
   role: "Senior Vice President, Culture Talent Diversity",
   outcome: "Executive Clarity"
 }, {
-  quote: "Aileen is a remarkable force—bold, strong, and unshakably driven—yet also one of the kindest, most compassionate people you'll ever meet. Working with Aileen isn't just coaching—it's a transformation. She becomes your champion, your guide, and your unwavering supporter, helping you break through barriers, step fully into your power, and claim the success you deserve.",
-  name: "Linda R.",
-  role: "Keynote Speaker & Leadership Coach",
-  outcome: "Breakthrough Transformation"
-}, {
   quote: "Starting a CEO role was definitely exciting and equally daunting. Sessions with Aileen helped me to clarify my unique strengths and attributes. Aileen's positive approach builds confidence and inspires you to bring your very best self to every interaction.",
   name: "Geraldine A.",
   role: "Chief Executive Officer",
