@@ -36,7 +36,7 @@ const BoldMethod: React.FC = () => {
     setOpenItems(newOpenItems);
   };
   return <section id="method" className="border-t bg-secondary/50">
-      <div className="container mx-auto py-[15px]">
+      <div className="container mx-auto py-[30px]">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">The BOLD™ Method</h2>
           
