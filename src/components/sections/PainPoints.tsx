@@ -22,9 +22,7 @@ const PainPoints: React.FC = () => {
       <div className="container mx-auto py-16">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">You've Earned Your Seat ... But at What Cost?</h2>
-          <p className="mx-auto mt-3 max-w-3xl text-lg text-muted-foreground">
-            But the invisible tax of being "the only one" is slowly killing your spirit, your health, and your confidence.
-          </p>
+          <p className="mx-auto mt-3 max-w-3xl text-lg text-muted-foreground">The invisible tax of being "the only one" is slowly killing your spirit, your health, and your confidence.</p>
           
           <div className="mt-6 p-4 bg-destructive/10 border border-destructive/20 rounded-lg">
             <p className="text-destructive font-medium">This is the "messy middle" of leadership, and most coaching misses these nuances.</p>
