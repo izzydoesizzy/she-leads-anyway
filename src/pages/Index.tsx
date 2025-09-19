@@ -6,6 +6,7 @@ import Agitation from "@/components/sections/Agitation";
 import Vision from "@/components/sections/Vision";
 import CoachIntro from "@/components/sections/CoachIntro";
 import SolutionIntro from "@/components/sections/SolutionIntro";
+import WhoThisIsFor from "@/components/sections/WhoThisIsFor";
 import OfferStack from "@/components/sections/OfferStack";
 import HowItWorks from "@/components/sections/HowItWorks";
 import BoldMethod from "@/components/sections/BoldMethod";
@@ -98,6 +99,7 @@ const Index = () => {
         <Agitation />
         <Vision />
         <SolutionIntro />
+        <WhoThisIsFor />
         <CoachIntro />
         <BoldMethod />
         <OfferStack />
