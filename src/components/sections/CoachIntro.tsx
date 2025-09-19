@@ -1,5 +1,5 @@
 import React from "react";
-import coachImage from "@/assets/coach-aileen.jpg";
+import coachImage from "@/assets/coach-aileen-new.jpg";
 const CoachIntro: React.FC = () => {
   return <section className="border-t">
       <div className="container mx-auto py-16">
