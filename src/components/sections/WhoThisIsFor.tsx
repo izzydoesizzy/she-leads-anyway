@@ -48,9 +48,7 @@ const WhoThisIsFor: React.FC = () => {
           </div>
 
           <div className="text-center mt-8">
-            <Badge variant="secondary" className="text-lg py-2 px-6">
-              ✨ Then this is the coaching space for you.
-            </Badge>
+            <Badge variant="secondary" className="text-lg py-2 px-6">Then this is the coaching space for you.</Badge>
           </div>
         </div>
       </div>
