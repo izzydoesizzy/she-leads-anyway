@@ -34,7 +34,14 @@ const CoachIntro: React.FC = () => {
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-primary" />
-                  <span>AME Consulting & Leadership Coaching</span>
+                  <a 
+                    href="https://www.ameconsulting.ca/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    AME Consulting & Leadership Coaching
+                  </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-accent" />
