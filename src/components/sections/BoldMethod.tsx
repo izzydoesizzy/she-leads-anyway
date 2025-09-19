@@ -38,7 +38,7 @@ const BoldMethod: React.FC = () => {
   return <section id="method" className="border-t bg-secondary/50">
       <div className="container mx-auto py-[30px]">
         <div className="text-center">
-          <h2 className="text-3xl font-semibold text-gradient-primary">The BOLD™ Method</h2>
+          <h2 className="text-3xl font-bold text-gradient-primary">The BOLD™ Method</h2>
           
           
         </div>
