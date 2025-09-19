@@ -1,5 +1,5 @@
 import React from "react";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Instagram } from "lucide-react";
 import coachImage from "@/assets/coach-aileen-yellow.jpg";
 const CoachIntro: React.FC = () => {
   return <section className="border-t">
@@ -51,6 +51,15 @@ const CoachIntro: React.FC = () => {
               >
                 <Linkedin className="h-4 w-4" />
                 <span>LinkedIn Profile</span>
+              </a>
+              <a 
+                href="https://www.instagram.com/ame_consulting/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-primary transition-colors"
+              >
+                <Instagram className="h-4 w-4" />
+                <span>Instagram</span>
               </a>
             </div>
           </div>
