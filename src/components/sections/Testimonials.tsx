@@ -2,25 +2,25 @@ import React from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [{
-  quote: "Working with Aileen helped me transition into my executive role with confidence I never knew I had. The BOLD™ Method gave me practical tools to navigate difficult conversations while staying true to myself.",
-  name: "Sarah M.",
-  role: "Director of Operations",
-  outcome: "Executive Transition"
+  quote: "I met Aileen when I was at a pivotal point in my career as a rising leader, feeling uncertain about how to navigate the next phase of executive leadership. I had questions about my direction, my impact, and how to align my values with achieving business results as a racialized, female leader. Working with Aileen was a turning point. She helped me see myself and my path with fresh clarity.",
+  name: "Joan Taylor, CHRE",
+  role: "Senior Vice President, Culture Talent Diversity",
+  outcome: "Executive Clarity"
 }, {
-  quote: "I was on the edge of burnout when I started coaching. Aileen helped me reclaim my voice and set boundaries that actually work. I'm leading differently now — with more peace and power.",
-  name: "Jennifer K.",
-  role: "VP Marketing",
-  outcome: "Burnout Recovery"
+  quote: "Aileen is a remarkable force—bold, strong, and unshakably driven—yet also one of the kindest, most compassionate people you'll ever meet. Working with Aileen isn't just coaching—it's a transformation. She becomes your champion, your guide, and your unwavering supporter, helping you break through barriers, step fully into your power, and claim the success you deserve.",
+  name: "Linda Raynier CPA, CA",
+  role: "Keynote Speaker & Leadership Coach",
+  outcome: "Breakthrough Transformation"
 }, {
-  quote: "The racial dynamics in my workplace were suffocating. Through this coaching, I learned how to navigate politics without compromising my values. I finally feel like I belong in leadership.",
-  name: "Michelle D.",
-  role: "Senior Manager",
-  outcome: "Authentic Leadership"
+  quote: "Starting a CEO role was definitely exciting and equally daunting. Sessions with Aileen helped me to clarify my unique strengths and attributes. Aileen's positive approach builds confidence and inspires you to bring your very best self to every interaction.",
+  name: "Geraldine Aguiar",
+  role: "Chief Executive Officer",
+  outcome: "CEO Transition"
 }, {
-  quote: "Aileen helped me design an exit strategy that led to a role where I can be myself fully. The Legacy Leadership Map™ was a game-changer for my career planning.",
-  name: "Patricia R.",
-  role: "Chief Human Resources Officer",
-  outcome: "Career Pivot"
+  quote: "Working with Aileen has been a truly transformative experience. She helped me find my inner voice, giving me the confidence to trust myself, make responsible decisions, and navigate difficulties with resilience. Thanks to Aileen, I now approach challenges with a renewed perspective, knowing I have the tools to move forward and emerge even stronger.",
+  name: "Natalie Andrew",
+  role: "Labour Relations Advisor",
+  outcome: "Inner Voice Discovery"
 }];
 const Testimonials: React.FC = () => {
   return <section id="proof" className="border-t bg-secondary/30">
