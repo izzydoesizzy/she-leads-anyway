@@ -38,11 +38,7 @@ const Hero: React.FC = () => {
               
             </div>
             
-            <div className="rounded-xl border-l-4 border-destructive bg-destructive/10 p-4">
-              <p className="font-semibold text-destructive text-sm">
-                ⚠️ Limited spots available for the next cohort. Apply to secure your spot.
-              </p>
-            </div>
+            
           </div>
           <div className="relative">
             <img src={heroImage} alt="A confident woman of colour executive in a modern office — She Leads Anyway coaching" className="rounded-xl shadow-xl ring-1 ring-border animate-scale-in" loading="eager" />
