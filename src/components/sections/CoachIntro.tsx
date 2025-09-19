@@ -30,37 +30,40 @@ const CoachIntro: React.FC = () => {
               </p>
             </div>
             
-            <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-primary" />
-                <span>AME Consulting & Leadership Coaching</span>
+            <div className="space-y-4">
+              <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-2">
+                  <div className="h-2 w-2 rounded-full bg-primary" />
+                  <span>AME Consulting & Leadership Coaching</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="h-2 w-2 rounded-full bg-accent" />
+                  <span>amedwards@ameconsulting.ca</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="h-2 w-2 rounded-full bg-primary" />
+                  <span>416-768-3612</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-accent" />
-                <span>amedwards@ameconsulting.ca</span>
+              
+              <div className="flex gap-3">
+                <a 
+                  href="https://www.linkedin.com/in/aileen-m-edwards/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.instagram.com/ame_consulting/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Instagram className="h-5 w-5" />
+                </a>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-primary" />
-                <span>416-768-3612</span>
-              </div>
-              <a 
-                href="https://www.linkedin.com/in/aileen-m-edwards/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-primary transition-colors"
-              >
-                <Linkedin className="h-4 w-4" />
-                <span>LinkedIn Profile</span>
-              </a>
-              <a 
-                href="https://www.instagram.com/ame_consulting/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-primary transition-colors"
-              >
-                <Instagram className="h-4 w-4" />
-                <span>Instagram</span>
-              </a>
             </div>
           </div>
         </div>
