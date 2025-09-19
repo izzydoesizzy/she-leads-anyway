@@ -96,7 +96,7 @@ const BoldMethod: React.FC = () => {
               </p>
             </div>
             
-            <div className="grid gap-4">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               {methods.map((method, index) => (
                 <Card key={index} className="group transition-all hover:shadow-md">
                   <CardContent className="p-6">
