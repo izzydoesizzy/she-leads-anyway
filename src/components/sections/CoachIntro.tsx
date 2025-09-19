@@ -33,7 +33,6 @@ const CoachIntro: React.FC = () => {
             <div className="space-y-4">
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <a href="https://www.ameconsulting.ca/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-3 py-1.5 rounded-md hover:bg-secondary/80 transition-colors text-sm font-medium border">
-                  <div className="h-2 w-2 rounded-full bg-primary" />
                   AME Consulting & Leadership Coaching
                 </a>
                 <a href="mailto:amedwards@ameconsulting.ca" className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-3 py-1.5 rounded-md hover:bg-secondary/80 transition-colors text-sm font-medium border">
