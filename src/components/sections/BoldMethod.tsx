@@ -12,7 +12,7 @@ const methods = [{
   letter: "O",
   title: "Own Your Power",
   summary: "Redefine presence on your terms and build authentic executive influence.",
-  details: ["Redefine presence on your terms.", "Reclaiming agency over one's voice, space and value - especially in workplaces that silence or diminish.", "Build executive influence rooted in self-trust and cultural authenticity.", "Learn how to hold your ground — even in tough conversations."]
+  details: ["Redefine presence on your terms.", "Reclaiming agency over one's voice, space and value - especially in workplaces that diminish silence or diminish.", "Build executive influence rooted in self-trust and cultural authenticity.", "Learn how to hold your ground — even in tough conversations."]
 }, {
   letter: "L",
   title: "Lead with Intention",
