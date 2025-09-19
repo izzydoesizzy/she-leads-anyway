@@ -43,7 +43,7 @@ const BoldMethod: React.FC = () => {
           
         </div>
         
-        <div className="mt-12 space-y-8">
+        <div className="mt-6 space-y-8">
           <div className="rounded-xl border bg-card p-8 shadow-sm py-[10px]">
             <p className="text-sm font-medium text-primary mb-3">Proven Framework</p>
             <p className="text-muted-foreground">This coaching experience is grounded in my proprietary BOLD™ Method — a leadership and liberation framework that blends strategy, emotional intelligence, and lived wisdom. I bring a rare blend of insight, strategy and soul. I create safe spaces where women of colour can reflect, rise and reclaim their power, transforming not just how they lead, but how they live.</p>
