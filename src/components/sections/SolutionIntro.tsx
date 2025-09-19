@@ -30,8 +30,8 @@ const SolutionIntro: React.FC = () => {
                 This isn't corporate polish. This is liberated leadership — rooted in truth, guided by values, and powered by your full self.
               </p>
               
-              <div className="mt-8 text-center">
-                <Button variant="hero" size="lg" asChild>
+              <div className="mt-8 flex justify-center">
+                <Button variant="hero" size="lg" className="w-full sm:w-auto" asChild>
                   <a href="#application">Book your complimentary discovery call →</a>
                 </Button>
               </div>
