@@ -17,7 +17,7 @@ const ApplicationForm: React.FC = () => {
     (e.currentTarget as HTMLFormElement).reset();
   };
   return <section id="apply" className="border-t">
-      <div className="container mx-auto grid gap-10 md:grid-cols-2 py-[10px]">
+      <div className="container mx-auto grid gap-10 md:grid-cols-2 py-[25px]">
         <div className="space-y-4">
           <h2 className="text-3xl font-semibold">Apply for a Private Consultation</h2>
           <p className="text-muted-foreground">
