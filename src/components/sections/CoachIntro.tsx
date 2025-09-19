@@ -49,7 +49,7 @@ const CoachIntro: React.FC = () => {
                 </div>
                 <a 
                   href="mailto:amedwards@ameconsulting.ca" 
-                  className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-3 py-1.5 rounded-md hover:bg-primary/90 transition-colors text-sm font-medium"
+                  className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-3 py-1.5 rounded-md hover:bg-secondary/80 transition-colors text-sm font-medium border"
                 >
                   <Mail className="h-4 w-4" />
                   Send Email
