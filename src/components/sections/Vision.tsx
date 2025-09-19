@@ -26,7 +26,7 @@ const Vision: React.FC = () => {
         </div>
         
         <div className="mx-auto mt-12 max-w-4xl">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-1">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
             {outcomes.map((outcome, index) => <div key={index} className="flex items-start gap-4 p-4">
                 <div className="mt-2 h-2 w-2 rounded-full bg-primary flex-shrink-0" />
                 <div>
