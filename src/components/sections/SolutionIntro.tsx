@@ -24,7 +24,7 @@ const SolutionIntro: React.FC = () => {
               
               <div className="space-y-4">
                 {benefits.map((benefit, index) => <div key={index} className="flex items-center gap-3">
-                    <div className="text-emerald-600 dark:text-emerald-400">✅</div>
+                    <div className="text-emerald-600 dark:text-emerald-400">✓</div>
                     <span className="text-foreground">{benefit}</span>
                   </div>)}
               </div>
