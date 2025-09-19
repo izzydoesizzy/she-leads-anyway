@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const SolutionIntro: React.FC = () => {
   const benefits = ["Build presence that commands respect", "Strengthen influence with senior leaders and decision-makers", "Lead high-stakes conversations with clarity and courage", "Thrive in leadership without burning out", "Design a leadership identity rooted in authenticity"];
   return <section id="solution" className="border-t bg-secondary/50">
-      <div className="container mx-auto py-16">
+      <div className="container mx-auto py-12">
         <div className="mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
