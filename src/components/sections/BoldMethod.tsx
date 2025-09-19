@@ -55,8 +55,8 @@ const BoldMethod: React.FC = () => {
             <div className="pointer-events-none absolute -inset-4 -z-10 rounded-2xl bg-gradient-primary opacity-20 blur-2xl" />
           </div>
           
-          <div className="space-y-6">
-            <div className="rounded-xl border bg-card p-6 shadow-sm px-[25px]">
+          <div className="space-y-6 px-0">
+            <div className="rounded-xl border bg-card p-6 shadow-sm px-[24px]">
               <p className="text-sm font-medium text-primary mb-3">Proven Framework</p>
               <p className="text-muted-foreground">
                 This isn't another generic leadership program. The BOLD™ Method was created specifically for women of colour who are tired of choosing between success and authenticity. It combines neuroscience-based transformation techniques with cultural wisdom and lived experience.
@@ -65,7 +65,7 @@ const BoldMethod: React.FC = () => {
             
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               {methods.map((method, index) => <Card key={index} className="group transition-all hover:shadow-md">
-                  <CardContent className="p-6">
+                  <CardContent className="p-6 px-0">
                     <div className="flex items-start gap-4">
                       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-primary text-white font-bold text-lg">
                         {method.letter}
