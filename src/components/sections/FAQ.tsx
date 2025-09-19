@@ -1,10 +1,8 @@
 import React from "react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-
 const FAQ: React.FC = () => {
-  return (
-    <section id="faq" className="border-t">
-      <div className="container mx-auto py-16">
+  return <section id="faq" className="border-t">
+      <div className="container mx-auto py-[20px]">
         <h2 className="text-center text-3xl font-semibold">Frequently Asked Questions</h2>
         <div className="mx-auto mt-6 max-w-3xl">
           <Accordion type="single" collapsible>
@@ -41,8 +39,6 @@ const FAQ: React.FC = () => {
           </Accordion>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FAQ;
