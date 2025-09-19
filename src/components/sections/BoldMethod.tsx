@@ -57,6 +57,13 @@ const BoldMethod: React.FC = () => {
             </p>
           </div>
           
+          <div className="text-center space-y-4">
+            <h3 className="text-2xl font-semibold">A Proven Framework for Transformational Leadership</h3>
+            <p className="text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              This coaching experience is grounded in my proprietary BOLD™ Method — a leadership and liberation framework that blends strategy, emotional intelligence, and lived wisdom. I bring a rare blend of insight, strategy and soul. I create safe spaces where women of colour can reflect, rise and reclaim their power, transforming not just how they lead, but how they live.
+            </p>
+          </div>
+          
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             {methods.map((method, index) => <Card key={index} className="group transition-all hover:shadow-md">
                 <CardContent className="p-6">
