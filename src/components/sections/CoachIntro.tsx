@@ -34,43 +34,25 @@ const CoachIntro: React.FC = () => {
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-primary" />
-                  <a 
-                    href="https://www.ameconsulting.ca/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="hover:text-primary transition-colors"
-                  >
+                  <a href="https://www.ameconsulting.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                     AME Consulting & Leadership Coaching
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="h-2 w-2 rounded-full bg-accent" />
-                  <span>amedwards@ameconsulting.ca</span>
+                  
+                  
                 </div>
-                <a 
-                  href="mailto:amedwards@ameconsulting.ca" 
-                  className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-3 py-1.5 rounded-md hover:bg-secondary/80 transition-colors text-sm font-medium border"
-                >
+                <a href="mailto:amedwards@ameconsulting.ca" className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-3 py-1.5 rounded-md hover:bg-secondary/80 transition-colors text-sm font-medium border">
                   <Mail className="h-4 w-4" />
                   Send Email
                 </a>
               </div>
               
               <div className="flex gap-3">
-                <a 
-                  href="https://www.linkedin.com/in/aileen-m-edwards/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                <a href="https://www.linkedin.com/in/aileen-m-edwards/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a 
-                  href="https://www.instagram.com/ame_consulting/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                <a href="https://www.instagram.com/ame_consulting/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Instagram className="h-5 w-5" />
                 </a>
               </div>
