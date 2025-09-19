@@ -36,7 +36,7 @@ const BoldMethod: React.FC = () => {
     setOpenItems(newOpenItems);
   };
   return <section id="method" className="border-t bg-secondary/50">
-      <div className="container mx-auto py-16">
+      <div className="container mx-auto py-[10px]">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">The BOLD™ Method</h2>
           <p className="mx-auto mt-3 max-w-3xl text-lg text-muted-foreground">
@@ -56,7 +56,7 @@ const BoldMethod: React.FC = () => {
           </div>
           
           <div className="space-y-6">
-            <div className="rounded-xl border bg-card p-6 shadow-sm">
+            <div className="rounded-xl border bg-card p-6 shadow-sm px-[25px]">
               <p className="text-sm font-medium text-primary mb-3">Proven Framework</p>
               <p className="text-muted-foreground">
                 This isn't another generic leadership program. The BOLD™ Method was created specifically for women of colour who are tired of choosing between success and authenticity. It combines neuroscience-based transformation techniques with cultural wisdom and lived experience.
