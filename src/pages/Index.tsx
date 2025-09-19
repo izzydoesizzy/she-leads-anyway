@@ -97,8 +97,8 @@ const Index = () => {
         <PainPoints />
         <Agitation />
         <Vision />
-        <CoachIntro />
         <SolutionIntro />
+        <CoachIntro />
         <OfferStack />
         <HowItWorks />
         <BoldMethod />
