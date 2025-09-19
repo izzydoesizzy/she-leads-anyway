@@ -16,8 +16,8 @@ const FAQ: React.FC = () => {
               <AccordionTrigger>Who is this best suited for?</AccordionTrigger>
               <AccordionContent>
                 Women leaders ready to sharpen communication and influence.<br/>
-                💡 HR/DEI leaders building inclusive leadership pipelines<br/>
-                💡 Organizations committed to advancing Women of Color in leadership
+                HR/DEI leaders building inclusive leadership pipelines<br/>
+                Organizations committed to advancing Women of Color in leadership
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="sponsorship">
