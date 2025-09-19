@@ -3,11 +3,9 @@ import { Button } from "@/components/ui/button";
 const FinalCTA: React.FC = () => {
   return <section id="call" className="border-t">
       <div className="container mx-auto py-[10px]">
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-primary p-8 text-center text-white shadow-xl py-[32px]">
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-primary p-8 text-center text-white shadow-xl py-0">
           <div className="relative z-10">
-            <div className="bg-white/20 text-white px-4 py-2 rounded-full inline-block mb-4">
-              <span className="font-bold">⏰ DEADLINE: Applications close February 15th</span>
-            </div>
+            
             
             <h2 className="text-3xl font-bold mb-2">Decision Time: Stay Stuck or Transform</h2>
             
