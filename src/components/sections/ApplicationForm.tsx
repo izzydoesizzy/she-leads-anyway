@@ -18,16 +18,7 @@ const ApplicationForm: React.FC = () => {
   };
   return <section id="apply" className="border-t">
       <div className="container mx-auto grid gap-10 md:grid-cols-2 py-[25px]">
-        <div className="space-y-4">
-          <h2 className="text-3xl font-semibold">Apply for a Private Consultation</h2>
-          <p className="text-muted-foreground">
-            Prefer to start with an application? Share a few details below. If it’s a fit, we’ll follow up to schedule your consultation.
-          </p>
-          <ul className="grid gap-2 text-sm text-muted-foreground">
-            <li>Confidential and obligation‑free</li>
-            <li>Response within 24–48 hours</li>
-          </ul>
-        </div>
+        
 
         <form onSubmit={onApply} className="rounded-xl border bg-card p-6 shadow-sm">
           <div className="grid gap-4">
@@ -39,14 +30,8 @@ const ApplicationForm: React.FC = () => {
               <Label htmlFor="email">Email</Label>
               <Input id="email" name="email" type="email" required placeholder="you@example.com" />
             </div>
-            <div className="grid gap-2">
-              <Label htmlFor="role">Current role</Label>
-              <Input id="role" name="role" placeholder="e.g., Senior Product Manager" />
-            </div>
-            <div className="grid gap-2">
-              <Label htmlFor="company">Company / Industry</Label>
-              <Input id="company" name="company" placeholder="Your organization" />
-            </div>
+            
+            
             <div className="grid gap-2">
               <Label htmlFor="goals">What would make this coaching a win?</Label>
               <Textarea id="goals" name="goals" placeholder="Share your top 1–3 goals" rows={4} />
