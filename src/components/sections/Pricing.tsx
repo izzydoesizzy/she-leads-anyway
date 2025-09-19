@@ -46,7 +46,7 @@ const Pricing: React.FC = () => {
                       {option.popular ? 'SECURE YOUR SPOT NOW' : 'Choose This Option'}
                     </a>
                   </Button>
-                  {option.popular && <p className="text-xs text-destructive mt-2 font-medium">Only 3 spots remaining</p>}
+                  {option.popular}
                 </div>
               </CardContent>
             </Card>)}
