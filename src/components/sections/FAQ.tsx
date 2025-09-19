@@ -15,7 +15,9 @@ const FAQ: React.FC = () => {
             <AccordionItem value="fit">
               <AccordionTrigger>Who is this best suited for?</AccordionTrigger>
               <AccordionContent>
-                Women of colour in leadership or high‑influence roles who want to strengthen executive presence, speak with courage, and lead from alignment without over‑functioning.
+                Women leaders ready to sharpen communication and influence<br/>
+                💡 HR/DEI leaders building inclusive leadership pipelines<br/>
+                💡 Organizations committed to advancing Women of Color in leadership
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="sponsorship">
