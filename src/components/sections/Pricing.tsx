@@ -19,14 +19,11 @@ const Pricing: React.FC = () => {
         <div className="text-center">
           
           <h2 className="text-3xl font-semibold">The Investment That Pays for Itself</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
-            At $73K average salary increase, this investment pays for itself in the first 30 days. 
-            <strong className="text-foreground">What's the cost of staying stuck?</strong>
-          </p>
+          
         </div>
         
         <div className="mx-auto mb-8 max-w-3xl text-center">
-          <div className="rounded-xl border border-primary/30 bg-gradient-primary/10 p-6">
+          <div className="rounded-xl border border-primary/30 bg-gradient-primary/10 p-6 py-[10px]">
             <h3 className="text-xl font-semibold text-primary mb-2">Total Program Value: $18,500</h3>
             <p className="text-sm text-muted-foreground mb-2">Based on comparable executive coaching rates ($300/hr × 24 sessions)</p>
             <div className="text-xs space-y-1 text-muted-foreground">
