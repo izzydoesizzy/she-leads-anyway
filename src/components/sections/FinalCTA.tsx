@@ -4,7 +4,7 @@ const FinalCTA: React.FC = () => {
   return <section id="call" className="border-t">
       <div className="container mx-auto py-[10px]">
         <div className="relative overflow-hidden rounded-2xl bg-gradient-primary p-8 text-center text-white shadow-xl py-[25px]">
-          <div className="relative z-10">
+          <div className="relative z-10 flex flex-col items-center justify-center">
             
             
             <h2 className="text-3xl font-bold mb-2">Decision Time: Stay Stuck or Transform</h2>
