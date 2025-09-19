@@ -114,9 +114,9 @@ const Index = () => {
       </main>
 
       <footer className="border-t">
-        <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} AME Consulting & Leadership Coaching</p>
-          <div className="flex items-center gap-6 text-sm">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-6 sm:py-8 md:flex-row">
+          <p className="text-xs text-center text-muted-foreground sm:text-sm">© {new Date().getFullYear()} AME Consulting & Leadership Coaching</p>
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:gap-6 sm:text-sm">
             <a href="#pain" className="story-link">The Problem</a>
             <a href="#solution" className="story-link">The Solution</a>
             <a href="#pricing" className="story-link">Investment</a>
