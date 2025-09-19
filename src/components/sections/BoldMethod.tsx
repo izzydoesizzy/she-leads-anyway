@@ -36,12 +36,10 @@ const BoldMethod: React.FC = () => {
     setOpenItems(newOpenItems);
   };
   return <section id="method" className="border-t bg-secondary/50">
-      <div className="container mx-auto py-[10px]">
+      <div className="container mx-auto py-[15px]">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">The BOLD™ Method</h2>
-          <p className="mx-auto mt-3 max-w-3xl text-lg text-muted-foreground">
-            The 4-pillar transformation framework that's generated over <strong>$10.8M in salary increases</strong> for women of colour in leadership
-          </p>
+          
           <div className="mt-4 flex justify-center gap-6 text-sm font-medium">
             <span className="text-accent">✓ Scientifically-backed</span>
             <span className="text-accent">✓ Culturally-informed</span>
@@ -52,17 +50,10 @@ const BoldMethod: React.FC = () => {
         <div className="mt-12 space-y-8">
           <div className="rounded-xl border bg-card p-8 shadow-sm">
             <p className="text-sm font-medium text-primary mb-3">Proven Framework</p>
-            <p className="text-muted-foreground">
-              This isn't another generic leadership program. The BOLD™ Method was created specifically for women of colour who are tired of choosing between success and authenticity. It combines neuroscience-based transformation techniques with cultural wisdom and lived experience.
-            </p>
+            <p className="text-muted-foreground">This coaching experience is grounded in my proprietary BOLD™ Method — a leadership and liberation framework that blends strategy, emotional intelligence, and lived wisdom. I bring a rare blend of insight, strategy and soul. I create safe spaces where women of colour can reflect, rise and reclaim their power, transforming not just how they lead, but how they live.</p>
           </div>
           
-          <div className="text-center space-y-4">
-            <h3 className="text-2xl font-semibold">A Proven Framework for Transformational Leadership</h3>
-            <p className="text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              This coaching experience is grounded in my proprietary BOLD™ Method — a leadership and liberation framework that blends strategy, emotional intelligence, and lived wisdom. I bring a rare blend of insight, strategy and soul. I create safe spaces where women of colour can reflect, rise and reclaim their power, transforming not just how they lead, but how they live.
-            </p>
-          </div>
+          
           
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             {methods.map((method, index) => <Card key={index} className="group transition-all hover:shadow-md">
