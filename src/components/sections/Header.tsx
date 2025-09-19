@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           <span className="text-sm font-semibold md:text-base">She Leads Anyway™</span>
         </a>
         <div className="hidden items-center gap-6 md:flex">
-          <a href="#problem" className="story-link text-sm">Why this space</a>
+          <a href="#problem" className="story-link text-sm">The Solution</a>
           <a href="#method" className="story-link text-sm">BOLD™ Method</a>
           <a href="#offer" className="story-link text-sm">What you get</a>
           <a href="#pricing" className="story-link text-sm">Investment</a>
