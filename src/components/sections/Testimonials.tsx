@@ -32,7 +32,7 @@ const Testimonials: React.FC = () => {
           </p>
         </div>
         
-        <div className="mx-auto mt-10 max-w-5xl">
+        <div className="mx-auto mt-6 max-w-5xl">
           <Carousel opts={{
           align: "start",
           loop: true
