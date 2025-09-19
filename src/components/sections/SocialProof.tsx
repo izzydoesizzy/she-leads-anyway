@@ -45,36 +45,21 @@ const SocialProof: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            {benefits.map((benefit, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-primary/50 hover:border-l-primary">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <benefit.icon className="w-6 h-6 text-primary" />
-                    </div>
-                    <p className="text-foreground leading-relaxed">
-                      {benefit.text}
-                    </p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {benefits.map((benefit, index) => (
+            <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-primary/50 hover:border-l-primary">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <benefit.icon className="w-6 h-6 text-primary" />
                   </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-xl shadow-2xl">
-              <img 
-                src={diverseLeaders} 
-                alt="Diverse executive leaders in a collaborative meeting environment"
-                className="w-full h-auto object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
-            </div>
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-primary/20 rounded-full blur-xl"></div>
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-secondary/30 rounded-full blur-lg"></div>
-          </div>
+                  <p className="text-foreground leading-relaxed">
+                    {benefit.text}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     </section>
