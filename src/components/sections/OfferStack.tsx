@@ -31,26 +31,22 @@ const OfferStack: React.FC = () => {
           </p>
         </div>
         
-        <div className="mx-auto mt-12 grid max-w-6xl gap-8 lg:grid-cols-3">
-          <div className="lg:col-span-2">
-            <div className="grid gap-6 md:grid-cols-2">
-              {offers.map((offer, index) => <Card key={index} className="group shadow-sm transition-all hover:shadow-lg hover:-translate-y-1">
-                  <CardHeader className="pb-3">
-                    <div className="flex items-center justify-between">
-                      <CardTitle className="text-lg">{offer.title}</CardTitle>
-                      <Badge variant="secondary" className="text-xs">
-                        {index < 2 ? "Core" : "Bonus"}
-                      </Badge>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{offer.description}</p>
-                  </CardContent>
-                </Card>)}
-            </div>
+        <div className="mx-auto mt-12 max-w-6xl">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {offers.map((offer, index) => <Card key={index} className="group shadow-sm transition-all hover:shadow-lg hover:-translate-y-1">
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-lg">{offer.title}</CardTitle>
+                    <Badge variant="secondary" className="text-xs">
+                      {index < 2 ? "Core" : "Bonus"}
+                    </Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{offer.description}</p>
+                </CardContent>
+              </Card>)}
           </div>
-          
-          
         </div>
       </div>
     </section>;
