@@ -25,9 +25,7 @@ const Hero: React.FC = () => {
               Executive Coaching for Women of Colour in Leadership
             </h2>
             
-            <p className="text-lg font-medium md:text-xl">
-              Lead with Purpose. Rise with Power. Stay Whole.
-            </p>
+            <p className="text-lg font-medium md:text-xl">Lead with Purpose. Empower with Heart.</p>
             
             <p className="text-base text-muted-foreground mx-[2px]">Backed by 30+ years of corporate human resources leadership. Trusted by women of colour leaders navigating high-stakes spaces with authenticity.</p>
             
