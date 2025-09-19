@@ -55,7 +55,7 @@ const BoldMethod: React.FC = () => {
             <div className="pointer-events-none absolute -inset-4 -z-10 rounded-2xl bg-gradient-primary opacity-20 blur-2xl" />
           </div>
           
-          <div className="flex flex-col justify-between h-full space-y-8">
+          <div className="space-y-6 px-0">
             <div className="rounded-xl border bg-card p-6 shadow-sm px-[24px]">
               <p className="text-sm font-medium text-primary mb-3">Proven Framework</p>
               <p className="text-muted-foreground">
