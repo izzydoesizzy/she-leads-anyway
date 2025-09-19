@@ -4,7 +4,7 @@ import coachImage from "@/assets/coach-aileen-new-blue.jpg";
 const CoachIntro: React.FC = () => {
   return <section className="border-t">
       <div className="container mx-auto py-16">
-        <div className="grid items-center gap-12 md:grid-cols-2">
+        <div className="grid items-center gap-6 md:gap-8 md:grid-cols-2">
           <div className="relative">
             <div className="aspect-square overflow-hidden rounded-2xl">
               <img src={coachImage} alt="Aileen Edwards, Executive Coach for Women of Colour" className="h-full w-full object-contain" loading="lazy" />
