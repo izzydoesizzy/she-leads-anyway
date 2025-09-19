@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             
             <div className="flex flex-wrap items-center gap-4">
               <Button variant="hero" size="lg" className="hover-scale pulse" asChild>
-                <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
+                <a href="https://calendly.com/ameconsulting/30-minute-discovery-meeting" target="_blank" rel="noopener noreferrer">
                   👉 Book Your Complimentary Discovery Call
                 </a>
               </Button>

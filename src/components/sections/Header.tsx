@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           <a href="#faq" className="story-link text-sm">FAQ</a>
         </div>
         <Button asChild variant="hero" size="sm" className="hover-scale">
-          <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
+          <a href="https://calendly.com/ameconsulting/30-minute-discovery-meeting" target="_blank" rel="noopener noreferrer">
             Book Discovery Call
           </a>
         </Button>

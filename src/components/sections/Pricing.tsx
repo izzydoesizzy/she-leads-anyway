@@ -42,7 +42,7 @@ const Pricing: React.FC = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">{option.description}</p>
                 <div className="mt-6">
                   <Button variant={option.popular ? "hero" : "outline"} className={`w-full ${option.popular ? 'pulse' : ''}`} asChild>
-                    <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
+                    <a href="https://calendly.com/ameconsulting/30-minute-discovery-meeting" target="_blank" rel="noopener noreferrer">
                       {option.popular ? 'SECURE YOUR SPOT NOW' : 'Choose This Option'}
                     </a>
                   </Button>

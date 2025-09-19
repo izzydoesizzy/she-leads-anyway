@@ -20,7 +20,7 @@ const StickyMobileCTA: React.FC = () => {
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-t p-4 md:hidden">
       <div className="flex gap-3">
         <Button variant="hero" className="flex-1" asChild>
-          <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
+          <a href="https://calendly.com/ameconsulting/30-minute-discovery-meeting" target="_blank" rel="noopener noreferrer">
             Book Discovery Call
           </a>
         </Button>
