@@ -4,19 +4,19 @@ const PainPoints: React.FC = () => {
   const struggles = [{
     title: "Invisible Tax of Leadership",
     description: "Carrying the emotional load while navigating unspoken rules and constant code-switching.",
-    icon: "😔"
+    icon: "🤦🏿‍♀️"
   }, {
     title: "Second-Guessing Your Voice",
     description: "Wondering if speaking up will label you as 'difficult' or 'too much.'",
-    icon: "🤐"
+    icon: "🤫🏿"
   }, {
     title: "Exhausting Politics",
     description: "Managing team dynamics where you're always managing racial dynamics too.",
-    icon: "😰"
+    icon: "😮‍💨"
   }, {
     title: "Feeling Unseen",
     description: "Leading with influence but still feeling like you don't truly belong.",
-    icon: "👻"
+    icon: "👩🏿‍💼"
   }];
   return <section id="pain" className="border-t bg-destructive/5">
       <div className="container mx-auto py-16">
