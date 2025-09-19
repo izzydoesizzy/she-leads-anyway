@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
               Lead with Purpose. Rise with Power. Stay Whole.
             </p>
             
-            <p className="text-base text-muted-foreground">Backed by 30+ years of corporate leadership and coaching expertise. Trusted by women of colour leaders navigating high-stakes spaces with authenticity.</p>
+            <p className="text-base text-muted-foreground mx-[2px]">Backed by 30+ years of corporate human resources leadership. Trusted by women of colour leaders navigating high-stakes spaces with authenticity.</p>
             
             <div className="flex flex-wrap items-center gap-4">
               <Button variant="hero" size="lg" className="hover-scale pulse" asChild>
