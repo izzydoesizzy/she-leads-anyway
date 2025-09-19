@@ -1,6 +1,6 @@
 import React from "react";
 import { Linkedin, Instagram, Mail } from "lucide-react";
-import coachImage from "@/assets/coach-aileen-yellow.jpg";
+import coachImage from "@/assets/coach-aileen-new-blue.jpg";
 const CoachIntro: React.FC = () => {
   return <section className="border-t">
       <div className="container mx-auto py-16">
