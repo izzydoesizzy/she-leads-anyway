@@ -18,7 +18,7 @@ const Pricing: React.FC = () => {
       <div className="container mx-0 py-[20px]">
         <div className="text-center">
           
-          <h2 className="text-3xl font-semibold">The Investment That Pays for Itself</h2>
+          <h2 className="text-3xl font-semibold">Your lnvestment</h2>
           
         </div>
         
