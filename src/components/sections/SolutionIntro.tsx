@@ -27,7 +27,7 @@ const SolutionIntro: React.FC = () => {
               </div>
               
               <p className="text-lg text-center font-medium mt-8 text-foreground">
-                This isn't corporate polish. This is liberated leadership — rooted in truth, guided by values, and powered by your full self.
+                This is liberated leadership — powered by your full self.
               </p>
               
               <div className="mt-8 text-center">
