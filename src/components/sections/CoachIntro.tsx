@@ -1,12 +1,12 @@
 import React from "react";
-import coachImage from "@/assets/coach-aileen-new.jpg";
+import coachImage from "@/assets/coach-aileen-yellow.jpg";
 const CoachIntro: React.FC = () => {
   return <section className="border-t">
       <div className="container mx-auto py-16">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="relative">
             <div className="aspect-square overflow-hidden rounded-2xl">
-              <img src={coachImage} alt="Aileen Edwards, Executive Coach for Women of Colour" className="h-full w-full object-cover" loading="lazy" />
+              <img src={coachImage} alt="Aileen Edwards, Executive Coach for Women of Colour" className="h-full w-full object-contain" loading="lazy" />
             </div>
             <div className="pointer-events-none absolute -inset-6 -z-10 rounded-3xl bg-gradient-primary opacity-20 blur-2xl" />
           </div>
