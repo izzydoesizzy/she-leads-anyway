@@ -3,55 +3,29 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { ChevronDown } from "lucide-react";
 import boldMethodImage from "@/assets/bold-method-framework.jpg";
-
-const methods = [
-  {
-    letter: "B",
-    title: "Becoming",
-    summary: "Unlearn self-silencing habits and reclaim your authentic voice and story.",
-    details: [
-      "Unlearn the self-silencing habits that helped you survive but no longer serve you.",
-      "Reconnect with your lived experiences, values and cultural wisdom.",
-      "Name the pressures and patterns that keep you dimming your light.",
-      "Reclaim your story and your voice."
-    ]
-  },
-  {
-    letter: "O", 
-    title: "Own Your Power",
-    summary: "Redefine presence on your terms and build authentic executive influence.",
-    details: [
-      "Redefine presence on your terms.",
-      "Reclaiming agency over one's voice, space and value - especially in workplaces that silence or diminish.",
-      "Build executive influence rooted in self-trust and cultural authenticity.",
-      "Learn how to hold your ground — even in tough conversations."
-    ]
-  },
-  {
-    letter: "L",
-    title: "Lead with Intention",
-    summary: "Develop authentic leadership presence that blends results with respect.",
-    details: [
-      "Develop authentic leadership presence that blends results with respect.",
-      "Reconnect with your purpose and values.",
-      "Set clear boundaries, goals, and strategies to lead from alignment, not over-functioning."
-    ]
-  },
-  {
-    letter: "D",
-    title: "Disrupting",
-    summary: "Challenge oppressive norms and create sustainable leadership models.",
-    details: [
-      "Challenge oppressive norms and create liberating leadership models.",
-      "You're not just here to succeed, you're here to lead in a way that feels sustainable.",
-      "We'll map out the next chapter of your career and leadership journey, one that reflects your truth and your worth."
-    ]
-  }
-];
-
+const methods = [{
+  letter: "B",
+  title: "Becoming",
+  summary: "Unlearn self-silencing habits and reclaim your authentic voice and story.",
+  details: ["Unlearn the self-silencing habits that helped you survive but no longer serve you.", "Reconnect with your lived experiences, values and cultural wisdom.", "Name the pressures and patterns that keep you dimming your light.", "Reclaim your story and your voice."]
+}, {
+  letter: "O",
+  title: "Own Your Power",
+  summary: "Redefine presence on your terms and build authentic executive influence.",
+  details: ["Redefine presence on your terms.", "Reclaiming agency over one's voice, space and value - especially in workplaces that silence or diminish.", "Build executive influence rooted in self-trust and cultural authenticity.", "Learn how to hold your ground — even in tough conversations."]
+}, {
+  letter: "L",
+  title: "Lead with Intention",
+  summary: "Develop authentic leadership presence that blends results with respect.",
+  details: ["Develop authentic leadership presence that blends results with respect.", "Reconnect with your purpose and values.", "Set clear boundaries, goals, and strategies to lead from alignment, not over-functioning."]
+}, {
+  letter: "D",
+  title: "Disrupting",
+  summary: "Challenge oppressive norms and create sustainable leadership models.",
+  details: ["Challenge oppressive norms and create liberating leadership models.", "You're not just here to succeed, you're here to lead in a way that feels sustainable.", "We'll map out the next chapter of your career and leadership journey, one that reflects your truth and your worth."]
+}];
 const BoldMethod: React.FC = () => {
   const [openItems, setOpenItems] = useState<Set<number>>(new Set());
-
   const toggleItem = (index: number) => {
     const newOpenItems = new Set(openItems);
     if (newOpenItems.has(index)) {
@@ -61,9 +35,7 @@ const BoldMethod: React.FC = () => {
     }
     setOpenItems(newOpenItems);
   };
-
-  return (
-    <section id="method" className="border-t bg-secondary/50">
+  return <section id="method" className="border-t bg-secondary/50">
       <div className="container mx-auto py-16">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">The BOLD™ Method</h2>
@@ -78,15 +50,7 @@ const BoldMethod: React.FC = () => {
         </div>
         
         <div className="mx-auto mt-12 grid max-w-6xl gap-8 md:grid-cols-2 lg:gap-12">
-          <div className="relative">
-            <img
-              src={boldMethodImage}
-              alt="BOLD Method framework visualization"
-              className="rounded-xl shadow-lg"
-              loading="lazy"
-            />
-            <div className="pointer-events-none absolute -inset-4 -z-10 rounded-2xl bg-gradient-primary opacity-20 blur-2xl" />
-          </div>
+          
           
           <div className="space-y-6">
             <div className="rounded-xl border bg-card p-6 shadow-sm">
@@ -97,8 +61,7 @@ const BoldMethod: React.FC = () => {
             </div>
             
             <div className="grid gap-4">
-              {methods.map((method, index) => (
-                <Card key={index} className="group transition-all hover:shadow-md">
+              {methods.map((method, index) => <Card key={index} className="group transition-all hover:shadow-md">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
                       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-primary text-white font-bold text-lg">
@@ -115,26 +78,21 @@ const BoldMethod: React.FC = () => {
                           </CollapsibleTrigger>
                           <CollapsibleContent className="mt-3">
                             <div className="space-y-2 text-sm text-muted-foreground">
-                              {method.details.map((detail, i) => (
-                                <div key={i} className="flex items-start gap-2">
+                              {method.details.map((detail, i) => <div key={i} className="flex items-start gap-2">
                                   <div className="mt-2 h-1.5 w-1.5 rounded-full bg-primary/60 flex-shrink-0" />
                                   <span>{detail}</span>
-                                </div>
-                              ))}
+                                </div>)}
                             </div>
                           </CollapsibleContent>
                         </Collapsible>
                       </div>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default BoldMethod;
