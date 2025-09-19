@@ -26,7 +26,7 @@ const OfferStack: React.FC = () => {
       <div className="container mx-auto py-16">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">What You'll Receive</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-muted-foreground my-[10px]">
+          <p className="mx-auto mt-3 max-w-4xl text-muted-foreground my-[10px] whitespace-nowrap">
             A comprehensive 6-month coaching experience designed specifically for women of colour in leadership.
           </p>
         </div>
