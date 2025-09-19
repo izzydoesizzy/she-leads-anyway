@@ -3,22 +3,22 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [{
   quote: "I met Aileen when I was at a pivotal point in my career as a rising leader, feeling uncertain about how to navigate the next phase of executive leadership. I had questions about my direction, my impact, and how to align my values with achieving business results as a racialized, female leader. Working with Aileen was a turning point. She helped me see myself and my path with fresh clarity.",
-  name: "Joan Taylor, CHRE",
+  name: "Joan T.",
   role: "Senior Vice President, Culture Talent Diversity",
   outcome: "Executive Clarity"
 }, {
   quote: "Aileen is a remarkable force—bold, strong, and unshakably driven—yet also one of the kindest, most compassionate people you'll ever meet. Working with Aileen isn't just coaching—it's a transformation. She becomes your champion, your guide, and your unwavering supporter, helping you break through barriers, step fully into your power, and claim the success you deserve.",
-  name: "Linda Raynier CPA, CA",
+  name: "Linda R.",
   role: "Keynote Speaker & Leadership Coach",
   outcome: "Breakthrough Transformation"
 }, {
   quote: "Starting a CEO role was definitely exciting and equally daunting. Sessions with Aileen helped me to clarify my unique strengths and attributes. Aileen's positive approach builds confidence and inspires you to bring your very best self to every interaction.",
-  name: "Geraldine Aguiar",
+  name: "Geraldine A.",
   role: "Chief Executive Officer",
   outcome: "CEO Transition"
 }, {
   quote: "Working with Aileen has been a truly transformative experience. She helped me find my inner voice, giving me the confidence to trust myself, make responsible decisions, and navigate difficulties with resilience. Thanks to Aileen, I now approach challenges with a renewed perspective, knowing I have the tools to move forward and emerge even stronger.",
-  name: "Natalie Andrew",
+  name: "Natalie A.",
   role: "Labour Relations Advisor",
   outcome: "Inner Voice Discovery"
 }];
