@@ -1,5 +1,5 @@
 import React from "react";
-import { Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram, Mail } from "lucide-react";
 import coachImage from "@/assets/coach-aileen-yellow.jpg";
 const CoachIntro: React.FC = () => {
   return <section className="border-t">
@@ -47,10 +47,13 @@ const CoachIntro: React.FC = () => {
                   <div className="h-2 w-2 rounded-full bg-accent" />
                   <span>amedwards@ameconsulting.ca</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="h-2 w-2 rounded-full bg-primary" />
-                  <span>416-768-3612</span>
-                </div>
+                <a 
+                  href="mailto:amedwards@ameconsulting.ca" 
+                  className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-3 py-1.5 rounded-md hover:bg-primary/90 transition-colors text-sm font-medium"
+                >
+                  <Mail className="h-4 w-4" />
+                  Send Email
+                </a>
               </div>
               
               <div className="flex gap-3">
