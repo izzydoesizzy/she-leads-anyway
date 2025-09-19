@@ -50,10 +50,7 @@ const BoldMethod: React.FC = () => {
         </div>
         
         <div className="mx-auto mt-12 grid max-w-6xl gap-8 md:grid-cols-2 lg:gap-12 my-0">
-          <div className="relative">
-            <img src={boldMethodImage} alt="BOLD Method framework visualization" className="rounded-xl shadow-lg" loading="lazy" />
-            <div className="pointer-events-none absolute -inset-4 -z-10 rounded-2xl bg-gradient-primary opacity-20 blur-2xl" />
-          </div>
+          
           
           <div className="space-y-6">
             <div className="rounded-xl border bg-card p-6 shadow-sm px-[25px]">

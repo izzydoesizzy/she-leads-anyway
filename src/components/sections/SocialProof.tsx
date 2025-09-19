@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import diverseLeaders from "@/assets/diverse-leaders.jpg";
 const SocialProof: React.FC = () => {
   return <section id="social-proof" className="border-t">
-      <div className="container mx-auto py-[20px]">
+      <div className="container mx-auto py-[35px]">
         <h2 className="text-center text-3xl font-semibold">Why Clients Choose This Space</h2>
         <p className="mx-auto mt-3 max-w-3xl text-center text-muted-foreground">
           It’s deeply restorative. It sharpens your executive edge. It’s about finally giving yourself permission to be you.

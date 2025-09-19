@@ -23,7 +23,7 @@ const testimonials = [{
   outcome: "Career Pivot"
 }];
 const Testimonials: React.FC = () => {
-  return <section id="proof" className="border-t bg-secondary/30">
+  return <section id="proof" className="border-t bg-secondary/30 py-[15px]">
       <div className="container mx-auto py-0 my-[15px]">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">Client Success Stories</h2>
