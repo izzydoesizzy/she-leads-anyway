@@ -9,8 +9,9 @@ const SolutionIntro: React.FC = () => {
         <div className="mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
-              A 6-Month Private Coaching Experience for <span className="text-gradient-primary">Women of Colour in Leadership</span>
+              The Solution: <span className="text-gradient-primary">She Leads Anyway™</span>
             </h2>
+            <p className="text-xl font-medium mb-6">A 6-Month Private Coaching Experience for Women of Colour in Leadership</p>
             <p className="text-lg text-muted-foreground">This is a high-touch, customized coaching partnership for women who are ready to:</p>
           </div>
           
