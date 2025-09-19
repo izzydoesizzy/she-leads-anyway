@@ -40,11 +40,7 @@ const BoldMethod: React.FC = () => {
         <div className="text-center">
           <h2 className="text-3xl font-semibold">The BOLD™ Method</h2>
           
-          <div className="mt-4 flex justify-center gap-6 text-sm font-medium">
-            <span className="text-accent">✓ Scientifically-backed</span>
-            <span className="text-accent">✓ Culturally-informed</span>
-            <span className="text-accent">✓ Results-guaranteed</span>
-          </div>
+          
         </div>
         
         <div className="mt-12 space-y-8">
