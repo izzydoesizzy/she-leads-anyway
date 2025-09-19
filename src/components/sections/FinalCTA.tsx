@@ -17,7 +17,7 @@ const FinalCTA: React.FC = () => {
             </p>
             
             <div className="flex flex-col gap-3 mb-4 w-full max-w-md sm:flex-row sm:justify-center sm:gap-4 sm:mb-6 sm:max-w-none">
-              <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90 font-bold pulse w-full sm:w-auto text-xs sm:text-sm md:text-base px-3 sm:px-4" asChild>
+              <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90 font-bold pulse w-full sm:w-auto text-[10px] sm:text-xs md:text-sm px-2 sm:px-3 md:px-4 leading-tight" asChild>
                 <a href="https://calendly.com/ameconsulting/30-minute-discovery-meeting" target="_blank" rel="noopener noreferrer">YES! I CHOOSE TRANSFORMATION → Book My Discovery Call</a>
               </Button>
             </div>
