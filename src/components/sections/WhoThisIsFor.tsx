@@ -15,15 +15,11 @@ const WhoThisIsFor: React.FC = () => {
             <div className="text-left space-y-6">
               <p className="text-lg leading-relaxed">
                 This coaching experience is for high-performing Women of Colour in leadership who know success on paper doesn't always feel like success on the inside.
-              </p>
-              
-              <p className="text-lg leading-relaxed">
+                <br/><br/>
                 Women leaders ready to sharpen communication and influence<br/>
                 💡 HR/DEI leaders building inclusive leadership pipelines<br/>
                 💡 Organizations committed to advancing Women of Color in leadership
               </p>
-              
-              
             </div>
           </div>
 
