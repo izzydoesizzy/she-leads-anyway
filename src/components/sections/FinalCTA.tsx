@@ -16,9 +16,7 @@ const FinalCTA: React.FC = () => {
             
             <div className="flex flex-wrap justify-center gap-4 mb-6">
               <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90 font-bold pulse" asChild>
-                <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">
-                  YES! I CHOOSE TRANSFORMATION → Book My Strategy Session
-                </a>
+                <a href="https://calendly.com/ameconsulting/coach-session" target="_blank" rel="noopener noreferrer">YES! I CHOOSE TRANSFORMATION → Book My Discovery Call</a>
               </Button>
             </div>
             
