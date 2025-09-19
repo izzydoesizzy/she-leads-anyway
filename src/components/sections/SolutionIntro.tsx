@@ -11,9 +11,7 @@ const SolutionIntro: React.FC = () => {
             <h2 className="text-4xl font-bold mb-4">
               The Solution: <span className="text-gradient-primary">She Leads Anyway™</span>
             </h2>
-            <p className="text-lg text-muted-foreground">
-              A 6-month private coaching experience for Women of Colour ready to lead with sovereignty — not survival.
-            </p>
+            <p className="text-lg text-muted-foreground">A 6-month private coaching experience for Women of Colour ready to lead with sovereignty —</p>
           </div>
           
           <Card className="border-primary/30 bg-gradient-primary/5 shadow-xl">
