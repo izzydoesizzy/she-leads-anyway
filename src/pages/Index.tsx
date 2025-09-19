@@ -99,9 +99,9 @@ const Index = () => {
         <Vision />
         <SolutionIntro />
         <CoachIntro />
+        <BoldMethod />
         <OfferStack />
         <HowItWorks />
-        <BoldMethod />
         <TransformationStory />
         <Testimonials />
         <SocialProof />
