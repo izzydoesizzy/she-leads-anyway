@@ -30,7 +30,7 @@ const SolutionIntro: React.FC = () => {
               
               <div className="mt-8 flex justify-center">
                 <Button variant="hero" size="lg" className="w-full sm:w-auto" asChild>
-                  <a href="#application">Book your complimentary discovery call →</a>
+                  <a href="https://calendly.com/ameconsulting/30-minute-discovery-meeting" target="_blank" rel="noopener noreferrer">Book your complimentary discovery call →</a>
                 </Button>
               </div>
             </CardContent>
