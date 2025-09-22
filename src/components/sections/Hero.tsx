@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
             
             <p className="text-base font-medium sm:text-lg md:text-xl">Lead with Purpose. Empower with Heart.</p>
             
-            <p className="text-sm text-muted-foreground sm:text-base">Backed by 30+ years of corporate human resources leadership. Trusted by women of colour leaders navigating high-stakes spaces with authenticity.</p>
+            <p className="text-sm text-muted-foreground sm:text-base">Backed by 30+ years of corporate human resources leadership. Trusted by women of colour leaders and diverse professionals navigating high-stakes spaces with authenticity.</p>
             
             <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
               <Button variant="hero" size="lg" className="hover-scale pulse w-full sm:w-auto text-sm sm:text-base" asChild>
