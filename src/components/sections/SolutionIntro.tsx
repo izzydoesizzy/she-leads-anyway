@@ -16,9 +16,7 @@ const SolutionIntro: React.FC = () => {
           
           <Card className="border-primary/30 bg-gradient-primary/5 shadow-xl">
             <CardContent className="p-8 py-[20px]">
-              <p className="text-lg text-muted-foreground mb-6">
-                This is a high-touch, customized coaching partnership for women who are ready to:
-              </p>
+              <p className="text-lg text-muted-foreground mb-6">This is a high-touch, specialized coaching partnership for women who are ready to:</p>
               <div className="space-y-4">
                 {benefits.map((benefit, index) => <div key={index} className="flex items-center gap-3">
                     <div className="text-emerald-600 dark:text-emerald-400">✅</div>
