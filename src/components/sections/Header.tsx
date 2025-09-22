@@ -7,7 +7,9 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex items-center justify-between py-4">
         <a href="#hero" className="flex items-center gap-2">
-          <img src={ameLogo} alt="AME Consulting Logo" className="h-8 w-8 rounded-md object-contain" />
+          <div className="h-8 w-8 rounded-md bg-gradient-primary relative">
+            <img src={ameLogo} alt="AME Consulting Logo" className="h-8 w-8 rounded-md object-contain absolute inset-0" />
+          </div>
           <span className="text-sm font-semibold md:text-base">She Leads Anyway™</span>
         </a>
         <div className="hidden items-center gap-6 md:flex">
