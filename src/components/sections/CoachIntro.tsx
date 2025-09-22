@@ -25,7 +25,7 @@ const CoachIntro: React.FC = () => {
             </div>
             
             <div className="rounded-xl border-l-4 border-primary bg-secondary/50 p-6 py-[18px]">
-              <p className="font-medium text-primary">Now, I help women and diverse prolike you build a new legacy, one where your leadership isn't rooted in survival, but in sovereignty.</p>
+              <p className="font-medium text-primary">Now, I help women and diverse professionals like you build a new legacy, one where your leadership isn't rooted in survival, but in sovereignty.</p>
             </div>
             
             <div className="space-y-4">
