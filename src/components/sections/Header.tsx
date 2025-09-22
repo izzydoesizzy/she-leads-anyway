@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <nav className="container mx-auto flex items-center justify-between py-4">
         <a href="#hero" className="flex items-center gap-2">
           <div className="h-8 w-8 rounded-md bg-gradient-primary relative">
-            <img src={ameLogo} alt="AME Consulting Logo" className="h-8 w-8 rounded-md object-contain absolute inset-0" />
+            <img src={ameLogo} alt="AME Consulting Logo" className="h-7 w-7 rounded-md object-contain absolute inset-0.5" />
           </div>
           <span className="text-sm font-semibold md:text-base">She Leads Anyway™</span>
         </a>
