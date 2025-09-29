@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                 Specialized for Women of Colour
               </Badge>
               <Badge variant="outline" className="px-2 py-1 text-xs whitespace-nowrap sm:px-3 sm:text-sm">
-                6-Month Private Experience
+                6-Month Private Coaching Experience
               </Badge>
             </div>
             
