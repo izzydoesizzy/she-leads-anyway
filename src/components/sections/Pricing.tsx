@@ -5,12 +5,12 @@ import { Badge } from "@/components/ui/badge";
 const pricingOptions = [{
   title: "One‑Time Payment",
   price: "$5,000",
-  description: "Save $250 CAD with the full investment upfront. HST applicable.",
+  description: "Save $250 with the full investment upfront. HST applicable.",
   popular: true
 }, {
   title: "6 Monthly Payments",
   price: "$875",
-  description: "Total $5,250 CAD. HST applicable. Custom plans available for nonprofit or early‑career leaders.",
+  description: "Total $5,250. HST applicable. Custom plans available for nonprofit or early‑career leaders.",
   popular: false
 }];
 const Pricing: React.FC = () => {
