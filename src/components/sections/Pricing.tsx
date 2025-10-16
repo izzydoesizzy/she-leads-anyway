@@ -35,7 +35,6 @@ const Pricing: React.FC = () => {
                 <CardTitle className="text-xl">{option.title}</CardTitle>
                 <div className="mt-4">
                   <span className="text-4xl font-bold text-gradient-primary">{option.price}</span>
-                  <span className="text-muted-foreground"> CAD</span>
                 </div>
               </CardHeader>
               <CardContent className="text-center">
