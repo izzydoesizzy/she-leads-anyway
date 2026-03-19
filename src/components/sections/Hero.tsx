@@ -2,7 +2,7 @@ import React from "react";
 import GradientSpotlight from "@/components/marketing/GradientSpotlight";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-const heroImage = "/lovable-uploads/79947212-b061-4abb-8a2c-4eb1acc94457.png";
+const heroImage = `${import.meta.env.BASE_URL}lovable-uploads/79947212-b061-4abb-8a2c-4eb1acc94457.png`;
 const Hero: React.FC = () => {
   return <section id="hero" className="relative overflow-hidden">
       <GradientSpotlight className="relative">
